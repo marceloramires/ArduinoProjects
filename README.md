@@ -20,4 +20,11 @@ Displaying the value gathered from an analogic photo sensor resistor in an LCD d
 See it here in two instances, one in normal ambient light (14/100) and one with a strong light source (66/100).  
 By covering it, we can get 0, and by literally touching a very bright light in it, we can get 100.
 
-![LCD Display](DocImages/LightSensor.jpg)
+![Light sensor](DocImages/LightSensor.jpg)
+
+####05 - Temperature Alarm
+Using a temperature sensor to gather ambient temperature in degrees celsius, and displaying it on an LCD display.  
+If the temperature is above 25ºC (77ºF), a buzzer sounds, and a 'DANGER' message is shown.  
+It's annoying, but just a way to test my newly acquired components on Arduino.   
+
+![Tempreature alarm](DocImages/TemperatureAlarm.jpg)
